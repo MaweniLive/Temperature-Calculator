@@ -1,3 +1,40 @@
 * {
-    
+    padding: 0;
+	margin: 0;
+	border: none; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #F5F5F5;
+
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./asset/neven-krcmarek-9dTg44Qhx1Q-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wrapper {
+   	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+}
+.calcwrap {
+    border: 1px solid #fff;
+    margin-top: 20%;
+    padding: 20px;
+}
+h1, p {
+   margin: 0 auto;
+   text-align: center;
+}
+p{
+  margin-bottom: 40px;
+}
+.btn {
+  font-size: 20px;
+  background-color: blue;
+  border-radius: 7px;
 }

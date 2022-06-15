@@ -5,26 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styling.css">
-    <title>Document</title>
+    <title>BMI Calculator</title>
 </head>
 <body>
+    <div class="wrapper">
+        <div class="calcwrap">
     <h1><b>B</b>ody <br><b>M</b>ass</br> <b>I</b>ndex Calculator</h1>
-     <p>Enter your height:
+     <p>Enter your height (CM):
          <input type="text" id="heightunits" />
-         <select type="multiple" id="heightunits">
-             <option value="metres" selected="selected">metres</option>
-         </select>
      </p>
-     <p>Enter your weight:
+     <p>Enter weight (KG):
          <input type="text" id="weightunits" />
-         <select type="multiple" id="weightunits">
-             <option value="kg" selected="selected">kilograms</option>
-         </select>
      </p>
-     <input type="button" value="Calculate BMI" onclick="calculate()"/>
+     <input type="button" class="btn" value="Calculate BMI" onclick="calculate()"/>
       <h1>Your BMI is: <span id="output">?</span></h1>
      <h2>This means you are: value = <span id='comment'></span> </h2>
-
+  </div>
+</div>
   <script src="./index.js">
   </script>  
 </body>
